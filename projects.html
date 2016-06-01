@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Barnan Das</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/layout.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+          <li class="active"><a href="research.html">Research</a></li>
+		  <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <h3 class="muted">Barnan Das</h3>
+      </div>
+
+      <hr>
+	  
+		<div class="row-fluid">
+			<div class="span3" align="middle" vertical-align="middle">
+				<h4>Imbalanced Class Distribution</h4>
+			</div>
+			<div class="span9">
+				<p>As machine learning techniques mature and are used to tackle complex scientific problems, 
+				challenges arise such as the imbalanced class distribution problem, where one of the target 
+				class labels is under-represented in comparison with other classes. Existing oversampling 
+				approaches for addressing this problem typically do not consider the probability distribution 
+				of the minority class while synthetically generating new samples. As a result, the minority 
+				class is not well represented which leads to high misclassification error. We introduce wRACOG, 
+				a Gibbs sampling-based oversampling approach to synthetically generating and strategically 
+				selecting new minority class samples. The Gibbs sampler uses the joint probability distribution 
+				of data attributes to generate new minority class samples in the form of a Markov chain. wRACOG 
+				iteratively learns a model by selecting samples from the Markov chain that have the highest 
+				probability of being misclassified. We validate the effectiveness of wRACOG using five UCI 
+				datasets and one new application domain dataset. A comparative study of wRACOG with three other 
+				well-known resampling methods provides evidence that wRACOG offers a definite improvement in 
+				classification accuracy for minority class samples over other methods.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row-fluid">
+			<div class="span3" align="middle" vertical-align="middle">
+				<h4>Overlapping Classes</h4>
+			</div>
+			<div class="span9">
+				<p>The class imbalance problem is a well-known classification challenge in machine learning 
+				that has vexed researchers for over a decade. Under-representation of one or more of the target 
+				classes (minority class(es)) as compared to others (majority class(es)) can restrict the 
+				application of conventional classifiers directly on the data. In addition, emerging challenges 
+				such as overlapping classes, make class imbalance even harder to solve. Class overlap is caused 
+				due to ambiguous regions in the data where the prior probability of two or more classes are 
+				approximately equal. We are motivated to address the challenge of class overlap in the presence 
+				of imbalanced classes by a problem in pervasive computing. Specifically, we are designing smart 
+				environments that perform health monitoring and assistance. Our solution, ClusBUS, is a 
+				clustering-based undersampling technique that identifies data regions where minority class 
+				samples are embedded deep inside majority class. By removing majority class samples from these 
+				regions, ClusBUS preprocesses the data in order to give more importance to the minority class 
+				during classification. Experiments show that ClusBUS achieves improved performance over an 
+				existing method for handling class imbalance.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row-fluid">
+			<div class="span3" align="middle" vertical-align="middle">
+				<h4>Smart Phone-Based Locomotive Activity Recognition</h4>
+			</div>
+			<div class="span9">
+				<center><img src="img/loco-act-rec.png" width="500" height="500"></center>
+			</div>
+		</div>
+		<hr>
+		<div class="row-fluid">
+			<div class="span3" align="middle" vertical-align="middle">
+				<h4>Smart Phone-Based Complex Daily Activity Recognition</h4>
+			</div>
+			<div class="span9">
+				<center>
+					<img src="img/phone-act-1.png" width="500" height="500">
+					<img src="img/phone-act-2.png" width="500" height="500">
+					<img src="img/phone-act-3.png" width="500" height="500">
+				</center>
+			</div>
+		</div>			
+      <hr>
+
+      <div class="footer">
+      <div class="row-fluid" align="center">
+        <p>&copy; Barnan Das 2009-2014</p>
+      </div>
+    </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

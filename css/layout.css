@@ -1,0 +1,113 @@
+body {
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+margin: 0 auto;
+max-width: 800px;
+}
+.container-narrow > hr {
+margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+margin: 60px 0;
+text-align: center;
+}
+.jumbotron h1 {
+font-size: 72px;
+line-height: 1;
+}
+.jumbotron .btn {
+font-size: 21px;
+padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+margin: 60px 0;
+}
+.marketing p + h4 {
+margin-top: 28px;
+}
+
+
+
+#dukelink { color: #001A57; }
+
+#links {
+    display: block;
+    height: 60px;
+    min-height: 60px;
+    list-style-type: none;
+    text-align:center;
+    -webkit-padding-start: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 1.0em;
+}
+
+#links li{
+    display: inline-block;
+    margin: 0 0.0em;
+    width: 50px;
+}
+
+.linkimg a {
+    display: block;
+    background-size: 75%, 75%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 75% 75%;
+    -khtml-background-size : 100% 100%;
+    -moz-background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+
+#twitter-link a {
+    background: url('../img/twitter_gs.png') no-repeat center center;
+}
+#twitter-link a:hover {
+    background: url('../img/twitter.png') no-repeat center center;
+}
+
+#facebook-link a {
+    background: url('../img/facebook_gs.png') no-repeat center center;
+}
+#facebook-link a:hover {
+    background: url('../img/facebook.png') no-repeat center center;
+}
+
+#linkedin-link a {
+    background: url('../img/linkedin_gs.png') no-repeat center center;
+}
+#linkedin-link a:hover {
+    background: url('../img/linkedin.png') no-repeat center center;
+}
+
+#quora-link a {
+    background: url('../img/quora_gs.png') no-repeat center center;
+}
+#quora-link a:hover {
+    background: url('../img/quora.png') no-repeat center center;
+}
+
+#googleplus-link a {
+    background: url('../img/googleplus_gs.png') no-repeat center center;
+}
+#googleplus-link a:hover {
+    background: url('../img/googleplus.png') no-repeat center center;
+}
+
+#preloadimg {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
